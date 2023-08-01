@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS Aboba</title>
+    <link rel="stylesheet" href="./aboba.css" />
+    <link rel="shutcut icon" href="">
+  </head>
+
+  <body>
+    <div class="alert"></div>
+    <div class="modal">
+      <div class="modal_content">
+        <button class="modal_close">X</button>
+      </div>
+    </div>
+    <div class="crash">
+      <a href="/miner/miner.html">.</a>
+      <div class="k crash_def"><span id="x">1.00</span>x</div>
+      <div class="history_c"></div>
+    </div>
+    <div class="func">
+      <div class="bet">
+        <div class="account">
+          <div class="avatar"></div>
+          <div class="nick">Aboba228</div>
+          <div class="balance">Balance: <span id="balance">100</span>$</div>
+          <button id="wallet" class="wallet btn"><img class="wallet_img" src="/png/wallet.png"></button>
+        </div>
+        <p class="w">Rate settings</p>
+        <div class="bet_m">
+          <div class="bet_m_input_up">
+            <button class="min_m btn">-5$</button>
+            <input class="bet_m_input" readonly type="text" />
+            <button class="plus_m btn">+5$</button>
+          </div>
+          <div class="bet_m_btn_down">
+            <button data-value="-50" class="bet_m_btn btn">-50$</button>
+            <button data-value="-25" class="bet_m_btn btn">-25$</button>
+            <button data-value="25" class="bet_m_btn btn">+25$</button>
+            <button data-value="50" class="bet_m_btn btn">+50$</button>
+            <button data-value="100" class="bet_m_btn btn">+100$</button>
+          </div>
+        </div>
+        <div class="bet_x">
+          <div class="bet_x_input_up">
+            <input class="bet_x_input" readonly placeholder="Auto-withdrawal" type="text" />
+            <button class="bet_x_input_clear_btn btn">clear</button>
+          </div>
+          <div class="bet_x_btn_down">
+            <button data-value="1.1" class="bet_x_btn btn">x1.1</button>
+            <button data-value="1.5" class="bet_x_btn btn">x1.5</button>
+            <button data-value="2" class="bet_x_btn btn">x2</button>
+            <button data-value="3" class="bet_x_btn btn">x3</button>
+            <button data-value="5" class="bet_x_btn btn">x5</button>
+          </div>
+        </div>
+        <div class="create">
+          <button class="create_btn btn">Start</button>
+          <button class="wd_btn">Withdraw</button>
+        </div>
+      </div>
+      <div class="gg">
+        <div class="info">Online History</div>
+        <div class="border"></div>
+        <div class="history_p"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./aboba.js"></script>
+</html>
